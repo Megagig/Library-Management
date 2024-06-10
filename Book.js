@@ -3,7 +3,7 @@ class Book {
     this.title = title;
     this.author = author;
     this.isbn = isbn;
-    this.isAvailable = isAvailable;
+    this.isAvailable = isAvailable; // Initially, every book is available
   }
 }
 
