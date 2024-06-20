@@ -1,4 +1,3 @@
-// src/main.ts
 import Library from './Library.js';
 import Book from './Book.js';
 import User from './User.js';
