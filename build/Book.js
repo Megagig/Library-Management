@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 /** Represents a book in the library */
 class Book {
     /**
@@ -15,4 +13,4 @@ class Book {
         this.isAvailable = isAvailable; //initially, every book is available
     }
 }
-exports.default = Book;
+export default Book;

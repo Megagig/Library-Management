@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 /** Represents a user of the library */
 class User {
     /**
@@ -12,4 +10,4 @@ class User {
         this.borrowedBooks = []; // Initialize with an empty array
     }
 }
-exports.default = User;
+export default User;

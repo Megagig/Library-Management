@@ -1,4 +1,4 @@
-import Book from './Book';
+import Book from './Book.js';
 
 /** Represents a user of the library */
 class User {

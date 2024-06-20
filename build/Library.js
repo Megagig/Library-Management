@@ -1,10 +1,5 @@
-"use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
-Object.defineProperty(exports, "__esModule", { value: true });
-const Book_1 = __importDefault(require("./Book"));
-const User_1 = __importDefault(require("./User"));
+import Book from './Book.js';
+import User from './User.js';
 /** Manages books and users in the library */
 class Library {
     constructor() {
@@ -19,7 +14,7 @@ class Library {
      * @param isAvailable - The availability status of the book
      */
     addBook(title, author, isbn, isAvailable = true) {
-        const book = new Book_1.default(title, author, isbn, isAvailable);
+        const book = new Book(title, author, isbn, isAvailable);
         this.books.push(book);
     }
     /**
@@ -50,7 +45,7 @@ class Library {
      * @param id - The ID of the user
      */
     addUser(name, id) {
-        const user = new User_1.default(name, id);
+        const user = new User(name, id);
         this.users.push(user);
     }
     /**
@@ -112,4 +107,4 @@ class Library {
         return book ? book.isAvailable : false;
     }
 }
-exports.default = Library;
+export default Library;
