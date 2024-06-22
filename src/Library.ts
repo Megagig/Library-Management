@@ -1,5 +1,5 @@
-import Book from './Book.js';
-import User from './User.js';
+import Book from './Book';
+import User from './User';
 
 /** Manages books and users in the library */
 class Library {

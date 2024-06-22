@@ -1,6 +1,6 @@
-import Library from './Library.js';
-import Book from './Book.js';
-import User from './User.js';
+import Library from './Library';
+import Book from './Book';
+import User from './User';
 
 const library = new Library();
 
